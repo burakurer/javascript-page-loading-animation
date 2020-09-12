@@ -1,0 +1,24 @@
+.page {
+    display: none;
+    text-align: center;
+}
+
+#load {
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 64px;
+    background-image: url('load.svg');
+    margin: auto;
+}
+
+#loadbg {
+    height: 100vh;
+    background-color: black;
+}
